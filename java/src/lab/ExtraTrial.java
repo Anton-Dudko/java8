@@ -23,10 +23,6 @@ public class ExtraTrial extends Trial {
         return super.isPassed() && mark3 >= PASS_MARK3;
     }
 
-    public double calcAverage(){
-        return (getMark1() + getMark2() + mark3) / 3.0;
-    }
-
     @Override
     public String toString() {
         return String.format("%s;%d;%d;%d;%b",

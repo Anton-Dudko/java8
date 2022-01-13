@@ -11,6 +11,4 @@ public class StrongTrial extends Trial{
         return getMark1() / MARK1_COEFF + getMark2();
     }
 
-
-
 }

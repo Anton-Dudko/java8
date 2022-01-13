@@ -47,10 +47,6 @@ public class Trial {
         return PASS_MARK;
     }
 
-    public double calcAverage(){
-        return (getMark1() + getMark2()) / 2.0;
-    }
-
     public Trial clone() {
         return new Trial(name, mark1, mark2);
     }
